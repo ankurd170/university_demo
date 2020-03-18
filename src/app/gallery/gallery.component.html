@@ -1,0 +1,17 @@
+
+
+<div class="content-section implementation carousel-demo">
+        <p-carousel [value]="cars" styleClass="custom-carousel" [numVisible]="3" [numScroll]="1" [circular]="true" [autoplayInterval]="3000" [responsiveOptions]="responsiveOptions">
+            <ng-template let-car pTemplate="item">
+                <div class="car-details">
+                    <div class="p-grid p-nogutter">
+                        <div class="p-col-12">
+                            <img src="assets/image/{{car.brand}}.jpg" />
+                        </div>
+                        
+                    </div>
+                </div>
+            </ng-template>
+        </p-carousel>
+</div>
+

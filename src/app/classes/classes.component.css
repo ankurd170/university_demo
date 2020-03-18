@@ -1,0 +1,14 @@
+.df
+{
+    background-image: url("/assets/image/comp.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+
+.b
+{
+    margin-top: 180px;
+    margin-left: 400px;
+}

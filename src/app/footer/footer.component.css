@@ -1,0 +1,56 @@
+footer
+{
+
+    height: 150px;
+    background-color: goldenrod;
+    width: 100%;
+	margin-bottom: 0;
+	margin-right: 0;
+
+}
+
+.fb
+{
+	margin-top: 10px;
+	height: 40px;
+	margin-left: 5px;
+	width: 40px;
+	background-color: #4f5abd;
+	
+	border-radius: 4px;
+}
+
+.twit
+{
+	height: 40px;
+	margin-left: 5px;
+	margin-top: 10px;
+	width: 40px;
+	background-color: #53c2e0;
+	
+	border-radius: 4px;
+}
+
+.ggl
+{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	height: 40px;
+	width: 40px;
+	background-color: #e32232;
+	color: white;
+	border-radius: 4px;
+	
+}
+
+.left{
+float: left;
+margin-left: 30px;
+}
+
+
+.right{
+    float: right;
+    margin-right: 30px;
+}

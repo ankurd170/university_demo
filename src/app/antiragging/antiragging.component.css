@@ -1,0 +1,36 @@
+
+
+
+
+body {
+    margin-top: 0;
+    margin-left: 0;
+ background-image: url("/assets/image/rag.jpg");
+ background-size: cover;
+ position: relative;
+ color:black;
+
+}
+.affix {
+    top: 20px;
+}
+div.col-sm-9 div {
+    height: 1000px;
+font-size: medium;
+font-style: italic;    
+}
+
+
+.t{
+background-color: mediumblue;
+}
+
+
+#section2 {color: black; background-color: darkorange;}
+
+
+@media screen and (max-width: 1100px) {
+  #section1, #section2, #section3, #section41, #section42  {
+      margin-left: 150px;
+  }
+}

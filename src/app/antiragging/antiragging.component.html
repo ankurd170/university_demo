@@ -1,0 +1,31 @@
+    
+                
+                <body data-spy="scroll" data-target="#myScrollspy" data-offset="15">
+
+
+                <div class="container">
+                    <div class="row">
+                        <nav class="col-sm-3" id="myScrollspy">
+                            <ul class="nav nav-pills nav-stacked " data-spy="affix" data-offset-top="205">
+                              <li class="t"><a href="#section2" routerLink="rules">Rules</a></li>
+                              <li class="t"><a href="#section2" routerLink="types">Types</a></li>
+                              <li class="t"><a href="#section2" routerLink="actions">Actions</a></li>
+                              <li class="dropdown t">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Grievance Cell<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="#section2" routerLink="science">Science</a></li>
+                                  <li><a href="#section2" routerLink="arts">Arts</a></li>
+                                  <li><a href="#section2" routerLink="engineering">Engineering</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                        </nav>
+                      
+                      <div class="col-sm-9">
+                            <div id="section2">
+                                <router-outlet></router-outlet>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                </body>

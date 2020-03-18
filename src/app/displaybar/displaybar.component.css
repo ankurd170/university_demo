@@ -1,0 +1,26 @@
+.disp
+{
+    height: 50px;
+    width: 100%;
+    background-color: slateblue;
+    
+}
+
+p
+{
+        animation:move 3s;
+        -webkit-animation:move 3s;
+}
+
+
+@keyframes move{
+
+    from{
+        margin-left: 0px;
+    }
+
+    to{
+        margin-right: 0px;
+    }
+
+}
