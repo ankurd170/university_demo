@@ -10,4 +10,15 @@ h2{
     margin-left: 560px;
 }
 
+.error
+{
+    color: red;
+}
+
+.error input
+{
+    border-color: red;
+}
+
+
 
