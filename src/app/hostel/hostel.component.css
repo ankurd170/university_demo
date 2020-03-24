@@ -6,6 +6,7 @@ width: 100%;
     color:white;
     font-style: italic;
     font-size: 30px;
+    
 }
 
 div
@@ -15,4 +16,5 @@ div
     background-image: url("/assets/image/hostel-3.jpg");
     background-size: cover;
     position:relative;
+    
 }
