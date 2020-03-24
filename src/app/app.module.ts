@@ -37,7 +37,7 @@ import { AboutComponent } from './about/about.component';
 import { MessageComponent } from './message/message.component';
 import { HomesectionComponent } from './homesection/homesection.component';
 import { WrongurlComponent } from './wrongurl/wrongurl.component';
-
+import {NgForm, FormsModule} from '@angular/forms';
 
 
 @NgModule({
@@ -80,6 +80,7 @@ import { WrongurlComponent } from './wrongurl/wrongurl.component';
         ButtonModule,
         ToastModule,
         TabViewModule,
+        FormsModule,
         CodeHighlighterModule,ModalModule.forRoot()
 
   ],

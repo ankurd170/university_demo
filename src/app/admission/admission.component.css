@@ -1,13 +1,18 @@
-table
+.card
 {
-    margin-left: 400px;
-    box-sizing: border-box;
-    padding: 15px;
+    width: 750px;
+    margin-left: 200px;
+background-color: darkgrey;
+position: relative;
 }
 
+.bt
+{
+    margin-left: 250px;
+}
 
 h2{
-    margin-left: 560px;
+    margin-left: 270px;
 }
 
 .error
