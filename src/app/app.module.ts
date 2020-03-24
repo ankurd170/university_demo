@@ -38,6 +38,7 @@ import { MessageComponent } from './message/message.component';
 import { HomesectionComponent } from './homesection/homesection.component';
 import { WrongurlComponent } from './wrongurl/wrongurl.component';
 import {NgForm, FormsModule} from '@angular/forms';
+import { ModalcompComponent } from './modalcomp/modalcomp.component';
 
 
 @NgModule({
@@ -72,6 +73,7 @@ import {NgForm, FormsModule} from '@angular/forms';
     MessageComponent,
     HomesectionComponent,
     WrongurlComponent,
+    ModalcompComponent,
   ],
   imports: [
     BrowserModule,
